@@ -49,5 +49,5 @@ Coloca en la misma carpeta tu CSV original (magexport_simples.csv o como lo llam
 Abre una terminal o consola de comandos en esa carpeta.
 
 Ejecuta:
-python convert_skus_to_handles.py
+# python convert_skus_to_handles.py
 ✅ Y automáticamente tendrás un nuevo archivo llamado magexport_simples_actualizado.csv.
