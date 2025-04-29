@@ -17,7 +17,7 @@ def convert_skus_to_handles(sku_list):
         return ''
     delimiters = ';' if ';' in sku_list else ','
     skus = [sku.strip() for sku in sku_list.split(delimiters)]
-    handles = [sku_to_url.get(sku, '[NOT_FOUND]') for sku in skus]
+    handles = [sku_to_url.get(sku, '') for sku in skus]
     return ','.join(handles)
 
 # Aplicar la conversión
